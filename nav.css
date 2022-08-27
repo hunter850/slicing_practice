@@ -1,0 +1,110 @@
+nav {
+    height: 48px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    z-index: 99999;
+    background-color: #fff;
+}
+.all_nav {
+    max-width: 1236px;
+    width: 100%;
+    display: inline-block;
+}
+.nav_left {
+    float: left;
+    display: inline;
+    line-height: 48px;
+    cursor: default;
+}
+.nav_left div {
+    display: inline-block;
+    padding: 0px 12px;
+}
+.nav_left div:hover .nav_left_underline{
+    border-bottom: 3px solid #333;
+    padding-bottom: 14px;
+}
+.nav_left img {
+    width: 67px;
+    height: 14px;
+    margin-right: 36px;
+    cursor: pointer;
+}
+.nav_left span {
+    font-size: .9375rem;
+    color: #666;
+}
+.nav_right {
+    line-height: 48px;
+}
+.nav_right div{
+    display: inline;
+}
+.nav_right {
+    margin-right: -130px;
+    cursor: default;
+}
+.nav_right a, .nav_right span {
+    font-size: .975rem;
+}
+.nav_right a, .nav_right a:visited, .nav_right a:hover, .nav_right a:active {
+    text-decoration: none;
+    color: #666;
+}
+.nav_right_list {
+    display: inline;
+    line-height: 24px;
+    margin-right: -12px;
+}
+.nav_right_list > li {
+    display: inline-block;
+    margin-left: -4px;
+    position: relative;
+    white-space: nowrap;
+    cursor: default;
+    padding: 0px 12px;
+}
+.nav_right_list ul {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 200px;
+    position: absolute;
+    z-index: 999999;
+    top: 37px;
+    left: -70px;
+    display: none;
+}
+.nav_right_list li:hover > ul {
+    display: block;
+}
+.nav_right_list > li:hover span {
+    border-bottom: 3px solid #666;
+}
+.nav_right_list > li:hover > a {
+    border-bottom: 3px solid #666;
+}
+.nav_right_list > li > a {
+    padding-bottom: 6px;
+}
+.nav_right_list li ul li {
+    padding: 12px;
+}
+.nav_right_list li ul li:hover a {
+    color: rgb(36, 80, 163);
+}
+.nav_right_list span {
+    padding: 13px 0px;
+    color: #666;
+}
+.nav_right_cursor {
+    cursor: pointer;
+}
+.nav_right svg {
+    height: 17px;
+    color: #666;
+    margin-bottom: -3px;
+    cursor: pointer;
+    padding-left: 12px;
+}
